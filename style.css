@@ -1,0 +1,67 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url(fotos/fondo_atr.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  font-weight: 1000;
+}
+h1,
+h2 {
+  color: #cecece;
+}
+
+#username {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.entrada-balance,
+.resultado-balance {
+  background-color: #f8f9fa;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.entrada-balance .card-title,
+.resultado-balance .card-title {
+  color: #007bff;
+}
+
+.btn-group .btn {
+  transition: all 0.3s ease;
+}
+
+.btn-group .btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-group span {
+  min-width: 60px;
+  justify-content: center;
+  background-color: #e9ecef;
+}
+
+#balance-result {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    margin-bottom: 1rem;
+  }
+}
